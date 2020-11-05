@@ -1,6 +1,8 @@
 a = []
 n = int(input(''))
 for i in range(0,n):
-	for i in n:
-		if int(i) % 2 == 0:
-			print(i)
+	b = int(input(''))
+	a.append(b)
+for b in a:
+	if int(b) % 2 == 0:
+		print("ответ", b)
